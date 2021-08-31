@@ -471,6 +471,7 @@ i {
 
 .projects {
   /* padding-bottom: 50px; */
+  overflow: hidden;
   width: 100%;
 }
 
@@ -502,6 +503,9 @@ i {
 }
 .swiper-pagination-bullet-active {
   background-color: var(--col1) !important;
+}
+.swiper-pagination{
+  position:relative !important;
 }
 
 .projects .card {
